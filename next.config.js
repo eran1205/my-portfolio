@@ -6,6 +6,7 @@ const nextConfig = {
     loader: 'akamai',
     path: '',
   },
+  assetPrefix: './',
   exportPathMap: async function (
     defaultPathMap,
     { dev, dir, outDir, distDir, buildId }

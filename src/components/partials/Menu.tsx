@@ -16,11 +16,11 @@ const Menu = () => {
       <div className="mx-auto flex h-16 max-w-7xl items-center px-4 md:px-6">
         <Link href="/">
           <a className="text-3xl  font-bold">
-            <span>Pofology</span>
+            <span>Eran Leiser's - Portfolop</span>
             <span className="text-primary-500">.</span>
           </a>
         </Link>
-        <ul className="ml-auto hidden items-center md:flex">
+        {/* <ul className="ml-auto hidden items-center md:flex">
           <li>
             <Link href="/works">
               <a
@@ -63,7 +63,7 @@ const Menu = () => {
               </a>
             </Link>
           </li>
-        </ul>
+        </ul> */}
         <button
           type="button"
           className="ml-auto transition-colors duration-150 hover:text-primary-500 md:-mt-0.5 md:ml-3"

@@ -20,7 +20,7 @@ const Menu = () => {
             <span className="text-primary-500">.</span>
           </a>
         </Link>
-        {/* <ul className="ml-auto hidden items-center md:flex">
+        <ul className="ml-auto hidden items-center md:flex">
           <li>
             <Link href="/works">
               <a
@@ -31,21 +31,7 @@ const Menu = () => {
                   }
                 )}
               >
-                Works
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/blog">
-              <a
-                className={classNames(
-                  'inline-block px-4 font-semibold  transition-colors duration-150 hover:text-primary-600 hover:underline',
-                  {
-                    'text-primary-500': router.asPath == '/blog',
-                  }
-                )}
-              >
-                Blog
+                Projects
               </a>
             </Link>
           </li>
@@ -63,7 +49,7 @@ const Menu = () => {
               </a>
             </Link>
           </li>
-        </ul> */}
+        </ul>
         <button
           type="button"
           className="ml-auto transition-colors duration-150 hover:text-primary-500 md:-mt-0.5 md:ml-3"

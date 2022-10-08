@@ -5,15 +5,15 @@ import Input from '@/components/form/Input';
 import TextArea from '@/components/form/Textarea';
 import SectionTitle from '@/components/shared/SectionTitle';
 import emailjs from '@emailjs/browser';
+import { FiChrome } from 'react-icons/fi';
 
 const ContactSection = () => {
 
-  const form = useRef();
+  const form: any = useRef();
  
   const sendEmail = (e: any) => {
     console.log('Trying to send an email')
     e.preventDefault(); // prevents the page from reloading when you hit “Send”
-  
     emailjs.sendForm('service_vovtsem', 'template_wzge6a4', form.current, '7tI7dnFEkMx7JqA5K')
       .then((result) => {
           // show the user a success message
@@ -35,15 +35,15 @@ const ContactSection = () => {
         <form ref={form} onSubmit={sendEmail}>
           <div className="col-span-2">
             <div className="grid gap-8 md:grid-cols-2">
-              <Input placeholder="Your Name" />
-              <Input placeholder="Email Address" />
+              <Input placeholder="Your Name" name="from_name" />
+              <Input placeholder="Email Address" name="from_email" />
             </div>
 
             <div className="mt-8">
-              <Input placeholder="Subject" />
+              <Input placeholder="Subject" name="mail_subject" />
             </div>
             <div className="mt-8">
-              <TextArea placeholder="Message" />
+              <TextArea placeholder="Message" name="message" />
             </div>
             <div className="mt-8">
               <Button className="mt-5 bg-primary-500 px-8 font-semibold text-white hover:bg-primary-600 focus:ring-2 focus:ring-primary-200">

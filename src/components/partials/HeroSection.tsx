@@ -7,6 +7,11 @@ import HeroBackground from './HeroBackground';
 import Typed from 'react-typed';
 
 const HeroSection = () => {
+  const  downloadCV = () => {
+    alert('Hello')
+    console.log('You clicked download CV.'); 
+  }
+
   return (
     <div className="hero relative -mt-16 flex items-center justify-center">
       <HeroBackground />
@@ -17,42 +22,36 @@ const HeroSection = () => {
         <h1 className="mt-4 text-3xl font-bold ">Eran Leiser</h1>
         <div className="mt-2 flex gap-1">
           {' '}
-          I'm a{' '}
           <Typed
-            strings={['Fullstack Developer', 'UI/UX Designer', 'Mobile App Developer']}
+            strings={['I\'m a Senior Fullstack Team Leader', 'Technologies: NodeJS, Java, React, Angular, AWS, Cloud services']}
             typeSpeed={60}
             backSpeed={30}
             loop
           />
         </div>
         <div className="mt-4  flex gap-5">
-          <Link href="https://www.instragram.com">
+          <Link href="https://www.instagram.com/erani1205/">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiInstagram size={25} />
             </a>
           </Link>
-          <Link href="https://www.twitter.com">
+          <Link href="https://twitter.com/eran1205">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiTwitter size={25} />
             </a>
           </Link>
-          <Link href="https://www.facebook.com">
+          <Link href="https://www.facebook.com/eran.leiser.7/">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiFacebook size={25} />
             </a>
           </Link>
-          <Link href="https://www.dribble.com">
-            <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
-              <FiDribbble size={25} />
-            </a>
-          </Link>
-          <Link href="https://www.github.com">
+          <Link href="https://github.com/eran1205">
             <a className="text-gray-700 transition-colors duration-150 hover:text-primary-500">
               <FiGithub size={25} />
             </a>
           </Link>
         </div>
-        <Button className="mt-5 px-8">Hire Me</Button>
+        <Button className="mt-5 px-8" type="button" onClick={downloadCV}>Get My CV</Button>
       </div>
 
       <div className="absolute bottom-0 flex flex-col items-center ">

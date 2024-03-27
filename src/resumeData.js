@@ -1,29 +1,29 @@
 let resumeData = {
     "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "name": "Eran Leiser",
+    "role": "Senior Engineering Manager",
+    "linkedinId":"1184622",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "I am highly motivated software team leader with high technical capabilities and proven experience in leading teams for delivering effective and well-designed software under a tightly scheduled project.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/eran-leiser-1184622/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/eran1205",
           "className":"fa fa-github"
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"https://twitter.com/eran1205",
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
+    "aboutme":"I am currently Leading an application that serves enterprise customers. The application has more than 600 active customers and millions transactions per day. The application is written in React.JS and includes multiple dashboards, reports and analytics features. The Backend include several microservices that some of them uses Node.js and some of them are written in GoLang. Both client and backend are deployed in AWS.",
+    "address":"Israel",
     "website":"https://rbhatia46.github.io",
     "education":[
       {
@@ -43,14 +43,42 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
+        "CompanyName":"CHEQ.AI",
         "specialization":"Some specialization",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
         "Achievements":"Some Achievements"
       },
       {
-        "CompanyName":"Some Company",
+        "CompanyName":"AT&T",
+        "specialization":"Some specialization",
+        "MonthOfLeaving":"Jan",
+        "YearOfLeaving":"2018",
+        "Achievements":"Some Achievements"
+      },
+      {
+        "CompanyName":"BIO-RAD",
+        "specialization":"Some specialization",
+        "MonthOfLeaving":"Jan",
+        "YearOfLeaving":"2018",
+        "Achievements":"Some Achievements"
+      },
+      {
+        "CompanyName":"RAMDOR",
+        "specialization":"Some specialization",
+        "MonthOfLeaving":"Jan",
+        "YearOfLeaving":"2018",
+        "Achievements":"Some Achievements"
+      },
+      {
+        "CompanyName":"PAYONEER",
+        "specialization":"Some specialization",
+        "MonthOfLeaving":"Jan",
+        "YearOfLeaving":"2018",
+        "Achievements":"Some Achievements"
+      },
+      {
+        "CompanyName":"ONE SPORTS",
         "specialization":"Some specialization",
         "MonthOfLeaving":"Jan",
         "YearOfLeaving":"2018",
@@ -60,13 +88,28 @@ let resumeData = {
     "skillsDescription":"Your skills here",
     "skills":[
       {
+        "skillname":"Reactjs"
+      },
+      {
+        "skillname":"Angular"
+      },
+      {
+        "skillname":"Javascript"
+      },
+      {
         "skillname":"HTML5"
       },
       {
         "skillname":"CSS"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Node.js"
+      },
+      {
+        "skillname":"GoLang"
+      },
+      {
+        "skillname":"Java"
       }
     ],
     "portfolio":[

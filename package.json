@@ -1,12 +1,15 @@
 {
   "name": "next-latest",
   "private": true,
+  "homepage": "https://eran1205.github.io/my-protfolio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "export": "next build && next export && cp -R ./.next/static ./out/_next/static/"
+    "export": "next build && next export && cp -R ./.next/static ./out/_next/static/",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

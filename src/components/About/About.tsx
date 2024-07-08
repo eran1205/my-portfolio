@@ -1,15 +1,24 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
-import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+import EranLeiser from "../../assets/EranLeiser2_resized.png";
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import angularIcon from "../../assets/angular-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
-import vueIcon from "../../assets/vue-icon.svg";
 import boostrapIcon from "../../assets/bootstrap-icon.svg";
+import javaIcon from "../../assets/java-icon.svg";
+import k8sIcon from "../../assets/kubernets-icon.svg";
+import awsIcon from "../../assets/aws-icon.svg";
+import oracleIcon from "../../assets/oracle-icon.svg";
+import mySqlIcon from "../../assets/mysql-icon.svg";
+import mongoDBIcon from "../../assets/mongodb-icon.svg";
+import clickhouseIcon from "../../assets/clickhouse-icon.svg";
+import couchbaseIcon from "../../assets/couchbase-icon.svg";
+import githubIcon from "../../assets/github-icon.svg";
+import gitlabIcon from "../../assets/gitlab-icon.svg";
+import jenkinsIcon from "../../assets/jenkins-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
 
 export function About() {
@@ -27,23 +36,10 @@ export function About() {
             the backend side.
           </p>
         </ScrollAnimation>
-        <ScrollAnimation
-          animateIn="fadeInLeft"
-          delay={0.2 * 1000}
-          style={{ marginTop: "2rem", marginBottom: "2rem" }}
-        >
-          <p>
-            But my services go beyond just custom development - I'm also
-            proficient in using CMS systems like WordPress and Shopify, making
-            it easy for my clients to take control of their own websites and
-            keep them up to date.
-          </p>
-        </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your
-            current online presence, I'd love to chat and see how I can help.
-            Let's bring your website dreams to reality together!
+            So if you're in need of a proficient manager with a management
+            experience of 7 years, I'd love to chat and see how I can help.
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
@@ -51,33 +47,34 @@ export function About() {
         </ScrollAnimation>
         <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
-              <img src={wordpress} alt="Wordpress" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
-            </ScrollAnimation>
-          </div>
-          <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
               <img src={reactIcon} alt="React" />
             </ScrollAnimation>
           </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={angularIcon} alt="Angular" />
+            </ScrollAnimation>
+          </div>
+
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.14 * 1000}>
               <img src={typescriptIcon} alt="Typescript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.15 * 1000}>
-              <img src={vueIcon} alt="Vue" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
+              <img src={nodeIcon} alt="Node" />
             </ScrollAnimation>
           </div>
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.16 * 1000}>
-              <img src={nodeIcon} alt="Node" />
+              <img src={javaIcon} alt="Java" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
+              <img src={jsIcon} alt="JavaScript" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -95,16 +92,65 @@ export function About() {
               <img src={boostrapIcon} alt="bootstrap" />
             </ScrollAnimation>
           </div>
+        </div>
+        <div className="hard-skills">
           <div className="hability">
-            <ScrollAnimation animateIn="fadeInUp" delay={0.19 * 1000}>
-              <img src={jsIcon} alt="JavaScript" />
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={oracleIcon} alt="Oracle" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={mySqlIcon} alt="MySql" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={mongoDBIcon} alt="MongoDB" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={clickhouseIcon} alt="ClickHouse" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={couchbaseIcon} alt="Couchbase" />
+            </ScrollAnimation>
+          </div>
+        </div>
+        <div className="hard-skills">
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={githubIcon} alt="Github" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={gitlabIcon} alt="Gitlab" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={jenkinsIcon} alt="Jenkins" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={k8sIcon} alt="Kubernets" />
+            </ScrollAnimation>
+          </div>
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.13 * 1000}>
+              <img src={awsIcon} alt="AWS" />
             </ScrollAnimation>
           </div>
         </div>
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.2 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={EranLeiser} alt="Eran Leiser" />
         </ScrollAnimation>
       </div>
     </Container>

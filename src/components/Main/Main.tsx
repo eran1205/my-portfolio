@@ -256,7 +256,7 @@ export function Main() {
       />
       <Hero></Hero>
       <About></About>
-      <Project></Project>
+      {/* <Project></Project> */}
       <Contact></Contact>
     </Container>
   );

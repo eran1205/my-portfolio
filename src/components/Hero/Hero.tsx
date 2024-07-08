@@ -18,13 +18,13 @@ export function Hero() {
           </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-          <h1>Vinayak Singh</h1>
+          <h1>Eran lieser</h1>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.4 * 1000}>
-          <h3>Full Stack Developer</h3>
+          <h3>Senior Engineering Manager</h3>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.6 * 1000}>
-          <p className="small-resume">4 Years of Experience</p>
+          <p className="small-resume">16 Years of Experience</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={0.8 * 1000}>
           <BrowserRouter>
@@ -36,27 +36,27 @@ export function Hero() {
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
           <div className="social-media">
             <a
-              href="https://www.linkedin.com/in/codevinayak"
+              href="https://www.linkedin.com/in/eran-leiser-1184622"
               target="_blank"
               rel="noreferrer"
             >
               <img src={linkedin} alt="Linkedin" />
             </a>
             <a
-              href="https://github.com/CodeVinayak/"
+              href="https://github.com/eran1205"
               target="_blank"
               rel="noreferrer"
             >
               <img src={githubIcon} alt="GitHub" />
             </a>
             <a
-              href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+              href="https://api.whatsapp.com/send/?phone=%2B972524877338&text=Hello+Eran"
               target="_blank"
               rel="noreferrer"
             >
               <img src={whatsapp} alt="Whatsapp" />
             </a>
-            <a href="https://t.me/CodeVinayak" target="_blank" rel="noreferrer">
+            <a href="https://t.me/erani1205" target="_blank" rel="noreferrer">
               <img src={telegram} alt="telegram" />
             </a>
           </div>

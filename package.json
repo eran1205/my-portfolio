@@ -10,12 +10,25 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-animate-on-scroll": "^2.1.9",
+    "react-dom": "^18.3.1",
+    "react-google-recaptcha": "^3.1.0",
+    "react-router-dom": "^6.24.1",
+    "react-router-hash-link": "^2.4.3",
+    "react-toastify": "^10.0.5",
+    "react-tsparticles": "^2.12.2",
+    "styled-components": "^6.1.11",
+    "validator": "^13.12.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
+    "@types/react-animate-on-scroll": "^2.1.8",
     "@types/react-dom": "^18.3.0",
+    "@types/react-google-recaptcha": "^2.1.9",
+    "@types/react-router-hash-link": "^2.4.9",
+    "@types/validator": "^13.12.0",
     "@typescript-eslint/eslint-plugin": "^7.13.1",
     "@typescript-eslint/parser": "^7.13.1",
     "@vitejs/plugin-react": "^4.3.1",
